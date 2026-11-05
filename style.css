@@ -285,6 +285,46 @@ img {
   gap: 1rem;
 }
 
+.course-origin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.4rem;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--primary);
+  border-radius: 16px;
+}
+
+.course-origin p {
+  flex: 1 1 300px;
+  color: var(--muted);
+}
+
+.course-origin strong {
+  color: var(--text);
+}
+
+.certificate-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.certificate-badges span {
+  padding: 0.45rem 0.75rem;
+  color: #a65379;
+  background: rgba(202, 111, 152, 0.09);
+  border: 1px solid rgba(202, 111, 152, 0.2);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .course-item {
   display: flex;
   justify-content: space-between;
